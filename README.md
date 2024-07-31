@@ -20,6 +20,14 @@ cmake -S . -B build
 cmake --build build
 ```
 
+### Make
+
+```shell
+make
+```
+
+If gcc(g++) is not installed in your computer, this command cannot run.
+
 ### GCC
 
 ```shell
