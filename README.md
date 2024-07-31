@@ -4,7 +4,7 @@ This project is to create a program that references VSCode workspace file and cr
 
 ## How to build
 
-### Common
+### Common commands
 
 ```shell
 git clone https://github.com/Kamioda/WorkspaceDirectoryGenerator.git
