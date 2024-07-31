@@ -4,15 +4,38 @@ This project is to create a program that references VSCode workspace file and cr
 
 ## How to build
 
-This project can build by CMake.
+### Common
 
 ```shell
 git clone https://github.com/Kamioda/WorkspaceDirectoryGenerator.git
 cd WorkspaceDirectoryGenerator
 git submodule init
 git submodule update
+```
+
+### CMake
+
+```shell
 cmake -S . -B build
 cmake --build build
+```
+
+### GCC
+
+```shell
+g++ -o wdg Main.cpp -std=c++20 -I ./3rdparty/json/include Main.cpp
+```
+
+### Clang
+
+```shell
+clang++ -o wdg Main.cpp -std=c++20 -I ./3rdparty/json/include Main.cpp
+```
+
+### Visual Studio Compiler
+
+```shell
+cl /EHsc /std:c++20 /Fe:wdg.exe /I ./3rdparty/json/include Main.cpp
 ```
 
 ## How to use
